@@ -1,5 +1,5 @@
 {
-  "name": "cem-react-wrapper-bug",
+  "name": "cem-react-wrapper-issue",
   "type": "module",
   "workspaces": [
     "./packages/component",

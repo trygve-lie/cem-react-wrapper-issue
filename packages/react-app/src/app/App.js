@@ -3,7 +3,7 @@ import React from "react";
 // This enables SSR for React wrapped web components.
 import '@lit-labs/ssr-react/enable-lit-ssr.js';
 
-// Import for using wrapped web component
+// Import wrapped web component
 import { TestBox } from 'cem-react-wrapper-issue-component/react';
 
 export default function App() {
