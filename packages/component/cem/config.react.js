@@ -5,5 +5,5 @@ export default customElementReactWrapperPlugin({
         // return `../src/${tagName}/${className}.js`;
         return '../src/component.js';
     },
-    ssrSafe: true,
+    ssrSafe: false,
 });
