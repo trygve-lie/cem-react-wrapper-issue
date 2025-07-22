@@ -1,0 +1,35 @@
+{
+  "name": "cem-react-wrapper-issue-component",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+        "default": "./src/component.js"
+    },
+    "./custom-elements.json": "./manifest/custom-elements.json",
+    "./react": "./react/index.js"
+  },
+  "files": [
+      "./manifest/custom-elements.json",
+      "./src/**/*.js"
+  ],
+  "scripts": {
+    "analyze": "cem analyze --config cem/config.js",
+    "clean": "node ./bin/delete.js",
+    "build": "node ./bin/build.js",
+    "start": "node ./bin/server.js"
+  },
+  "dependencies": {
+    "lit": "3.3.1"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "0.10.4",
+    "custom-element-react-wrappers": "1.7.2",
+    "esbuild":"0.25.8",
+    "@fastify/static": "8.2.0",
+    "@lit-labs/ssr": "3.3.1",
+    "fastify": "5.4.0",
+    "rimraf": "6.0.1"
+  },
+  "customElements": "./manifest/custom-elements.json"
+}

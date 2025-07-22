@@ -1,0 +1,15 @@
+{
+  "name": "cem-react-wrapper-bug",
+  "type": "module",
+  "workspaces": [
+    "./packages/component",
+    "./packages/react-app"
+  ],
+  "scripts": {
+    "analyze": "npm run analyze --workspaces",
+    "clean": "npm run clean --workspaces",
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspace=cem-react-wrapper-issue-react-app"
+  },
+  "license": "MIT"
+}
